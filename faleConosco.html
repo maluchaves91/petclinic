@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetClinic</title>
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="index.html#quemSomos">Quem Somos</a></li>
+                <li><a href="index.html#consultas">Consultas</a></li>
+                <li><a href="index.html#cirurgia">Cirurgias</a></li>
+                <li><a href="localizacao.html">Funcionamento</a></li>
+                <li><a href="faleConosco.html">Fale Conosco</a></li>
+                <li><a href="loginUsuario.html">Área do Usuário</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="FaleConosco.png" width="100%">
+            </div>
+
+            <div class="content">
+                <h2 style="margin-left: 150px;">Fale Conosco</h2>
+                <img style="float: right; margin-right: 150px;" src="logoEscuro.png" alt="logo da PetClinic com a imagem de um cachorro e um gato" width="30%">
+                <form onsubmit="" method="get" style="margin-left: 150px;">
+                    <label>Nome:</label>&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name">
+                    <br><br>
+                    <label>E-mail:</label>&nbsp;&nbsp;&nbsp;<input type="email" name="email">
+                    <br><br>
+                    <label>Assunto:</label>&nbsp;<input type="text" name="subject">
+                    <br><br>
+                    <label>Mensagem:</label><br><textarea name="" id="message" cols="28" rows="4"></textarea>
+                    <br><br>
+                    <button class="btn" type="submit" onclick="alert('Um dos nossos funcionários retornará em 24h')">Enviar</button>
+                </form>
+                
+            </div>
+
+           
+
+            <div class="footer">
+                <table id="rodape" sumary="Esta tabela se refere ao logo, redes sociais e a localização de Pet Clinic">
+                    <tbody>
+                        <tr>
+                            <td rowspan="3">
+                                <img src="logo.png" width="100px" alt="logo da PetClinic com a imagem de um cachorro e um gato">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </td>
+                            <td>
+                                <a style="text-decoration: none; color:white" href="https://www.instagram.com/"
+                                    target="_blank">
+                                    <i class="fa fa-instagram"></i>&nbsp;&nbsp;@petclinic
+                                </a>
+                            </td>
+                            <td rowspan="3">
+                                <p style="text-align: right;">Rua Salvador Romeu, 317 - Vila Guilherme, São Paulo - São
+                                    Paulo, 02081-000
+                                </p>
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.018015552319!2d-46.60993718502346!3d-23.49586058471546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef619558fb8cd%3A0xcef2cebac8a6d60d!2sCLINICA%20VETERIN%C3%81RIA%20ESPA%C3%87O%20PET!5e0!3m2!1spt-BR!2sbr!4v1690246790378!5m2!1spt-BR!2sbr"
+                                    width="560" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <a style="text-decoration: none; color:white" href="https://mail.google.com"
+                                    target="_blank">
+                                    <i class="fa fa-envelope"></i>&nbsp;
+                                    petclinic@gmail.com &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <a style="text-decoration: none; color:white" href="https://twitter.com/"
+                                    target="_blank">
+                                    <i class="fa fa-twitter"></i>&nbsp;
+                                    @petclinic
+                                </a>
+                            </td>
+                        </tr>
+                </table>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
